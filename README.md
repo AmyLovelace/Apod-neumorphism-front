@@ -10,13 +10,13 @@ Styled with SCSS for enhanced styling capabilities
 Utilizes Vite for fast development and build times
 Implemented in TypeScript for static typing and improved code quality
 # Technologies Used
-*React
+* React
 
-*SCSS (with Atomic Design approach)
+* SCSS (with Atomic Design approach)
 
-*Vite
+* Vite
 
-*TypeScript
+* TypeScript
 
 # Usage Clone the repository:
 
