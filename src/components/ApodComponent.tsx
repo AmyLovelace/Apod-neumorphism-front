@@ -49,6 +49,7 @@ const ApodComponent = () => {
         value={date}
         onChange={handleDateChange}
         placeholder="Introduce una fecha (YYYY-MM-DD)"
+        className='apod-component__input'
       />
       <button onClick={fetchApod} className='apod-component__button'>Obtener APOD</button>
       </div>
