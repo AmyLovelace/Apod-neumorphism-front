@@ -1,0 +1,85 @@
+@import "./colors.scss";
+@import "./fonts.scss";
+@import "./spacing.scss";
+
+#body{
+  background: #e0d6eb;
+
+}
+.apod-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  height: 50vh;
+
+  &__form-date-container{
+    height: 5vh;
+    margin-bottom: 100px;
+     
+
+  }
+  &__button {
+    margin: 2rem;
+    width: 9rem;
+    height: 4rem;
+    background: #e0d6eb; 
+    border: none;
+    border-radius: 32px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+    span {
+      line-height: 100px;
+      font-size: 32px;
+      font-weight: bold;
+    }
+  
+    box-shadow: 
+      -5px -5px 15px rgba(255, 255, 255, 0.5),
+       5px 5px 15px rgba(0, 0, 0, 0.2);
+  
+    &:hover {
+      box-shadow: 
+        -8px -8px 20px rgba(255, 255, 255, 0.8),
+         8px 8px 20px rgba(0, 0, 0, 0.3);
+    }
+  
+    &:active {
+      box-shadow: inset 4px 4px 8px rgba(255, 255, 255, 0.3),
+                  inset -4px -4px 8px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+
+
+  &__container {
+    margin-top: 2rem;
+    text-align: center; 
+    height: 1vh;
+  }
+
+  &__img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; 
+  }
+
+  &__title {
+    font-family: $font-family;
+    font-size: $font-size-base * 1.5;
+    color: $text-dark;
+    margin-bottom: 30px; 
+  }
+
+  &__explanation {
+    font-family: $font-family;
+    font-size: $font-size-base;
+    color: $text-dark;
+    padding: 0rem 0rem 3rem 0rem; 
+    max-width: 70%;
+    text-align: center; 
+    margin: 0 auto; 
+  }
+}
