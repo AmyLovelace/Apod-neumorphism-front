@@ -10,27 +10,24 @@ Styled with SCSS for enhanced styling capabilities
 Utilizes Vite for fast development and build times
 Implemented in TypeScript for static typing and improved code quality
 # Technologies Used
-React
-SCSS (with Atomic Design approach)
-Vite
-TypeScript
+-React
+-SCSS (with Atomic Design approach)
+-Vite
+-TypeScript
 # Usage Clone the repository:
 
-## Copy code
 ```
-git clone <repository_url>
+git clone https://github.com/AmyLovelace/Apod-neumorphism.git
 ```
 
 # Install dependencies:
 
-## Copy code
 ```
 npm install
 
 ```
 # Run the development server:
 
-## Copy code
 ```
 npm run dev
 
