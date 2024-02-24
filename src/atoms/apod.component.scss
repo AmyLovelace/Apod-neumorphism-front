@@ -13,11 +13,29 @@
   justify-content: center; 
   height: 50vh;
 
-  &__form-date-container{
-    height: 5vh;
-    margin-bottom: 100px;
-     
+  &__form-date-container {
+    height: 15vh;
+    margin-bottom: 20px; 
 
+    input[type="date"] {
+      width: 200px; 
+      height: 40px; 
+      border: none; 
+      border-radius: 10px; 
+      background-color: #e0d6eb; 
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px rgba(255, 255, 255, 0.5);
+      padding: 5px; 
+      font-size: 16px; 
+      color: #555;
+   
+    }
+  
+    
+  }
+
+
+  &__text{
+    color: grey;
   }
   &__button {
     margin: 2rem;
@@ -52,8 +70,7 @@
     }
   }
   
-
-
+  
   &__container {
     margin-top: 2rem;
     text-align: center; 
@@ -82,4 +99,5 @@
     text-align: center; 
     margin: 0 auto; 
   }
+
 }

@@ -39,8 +39,25 @@ const ApodComponent = () => {
   useEffect(() => {
     setError(null);
   }, [date]);
+  const getCurrentDate = () => {
+    const now = new Date();
+    const year = now.getFullYear();
+    let month: string | number = now.getMonth() + 1;
+    let day: string | number = now.getDate();
+
+    if (month < 10) {
+      month = `0${month}`;
+    }
+    if (day < 10) {
+      day = `0${day}`;
+    }
+
+    return `${year}-${month}-${day}`;
+  };
+
 
   return (
+    
     <div className="apod-component">
       
       <div className='apod-component__form-date-container'>
@@ -48,13 +65,15 @@ const ApodComponent = () => {
         type="date"
         value={date}
         onChange={handleDateChange}
+        min="1995-06-16" 
+        max={getCurrentDate()} 
         placeholder="Introduce una fecha (YYYY-MM-DD)"
         className='apod-component__input'
       />
       <button onClick={fetchApod} className='apod-component__button'>Obtener APOD</button>
       </div>
-      {isLoading && <p>Cargando...</p>}
-      {error && <p style={{ color: 'red' }}>{error}</p>}
+      {isLoading && <p className='apod-component__text'>Cargando...</p>}
+      {error && <p className='apod-component__text'>{error}</p>}
       {apodData && (
         <div className="apod-component__container">
           <img src={apodData.url} alt={apodData.title} className="apod-component__img" />

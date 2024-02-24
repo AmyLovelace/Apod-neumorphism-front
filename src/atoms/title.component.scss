@@ -1,0 +1,19 @@
+
+.title-container {
+    max-width: 60%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 23px;
+    box-shadow: 6px 0px 4px #e0d6eb4b,-1px 8px 9px #ffffff6c;
+    transition: all 0.3s ease; 
+    
+    .title {
+        color: #5c5470; // Color de texto complementario
+        text-align: center;
+        font-size: 2.5rem;
+        text-shadow: 2px 2px 5px #b6a5d6; // Sombra suave para resaltar el texto
+    }
+    .subtitle{
+        
+    }
+}
