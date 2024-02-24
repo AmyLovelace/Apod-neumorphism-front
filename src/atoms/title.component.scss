@@ -8,12 +8,17 @@
     transition: all 0.3s ease; 
     
     .title {
-        color: #5c5470; // Color de texto complementario
+        color: #9085ac;
         text-align: center;
         font-size: 2.5rem;
-        text-shadow: 2px 2px 5px #b6a5d6; // Sombra suave para resaltar el texto
+        text-shadow: 2px 2px 5px #b6a5d6;
     }
     .subtitle{
+        color: #5c5470; 
+        text-align: center;
+        font-size: 1rem;
         
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-shadow: 2px 2px 5px #b6a5d6;
     }
 }

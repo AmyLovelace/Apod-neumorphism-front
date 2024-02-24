@@ -70,7 +70,7 @@ const ApodComponent = () => {
         placeholder="Introduce una fecha (YYYY-MM-DD)"
         className='apod-component__input'
       />
-      <button onClick={fetchApod} className='apod-component__button'>Obtener APOD</button>
+      <button onClick={fetchApod} className='apod-component__button'>Get Picture</button>
       </div>
       {isLoading && <p className='apod-component__text'>Cargando...</p>}
       {error && <p className='apod-component__text'>{error}</p>}

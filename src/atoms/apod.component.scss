@@ -35,7 +35,7 @@
 
 
   &__text{
-    color: grey;
+    color: #5c5470;
   }
   &__button {
     margin: 2rem;
@@ -47,6 +47,7 @@
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease;
+    color: #5c5470;
     
     span {
       line-height: 100px;
