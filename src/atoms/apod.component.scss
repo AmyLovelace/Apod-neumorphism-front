@@ -2,103 +2,115 @@
 @import "./fonts.scss";
 @import "./spacing.scss";
 
-#body{
+#body {
   background: #e0d6eb;
 
 }
+
 .apod-component {
   display: flex;
   flex-direction: column;
-  align-items: center; 
-  justify-content: center; 
+  align-items: center;
+  justify-content: center;
   height: 50vh;
 
   &__form-date-container {
     height: 15vh;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 
     input[type="date"] {
-      width: 200px; 
-      height: 40px; 
-      border: none; 
-      border-radius: 10px; 
-      background-color: #e0d6eb; 
+      width: 200px;
+      height: 40px;
+      border: none;
+      border-radius: 10px;
+      background-color: #e0d6eb;
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px rgba(255, 255, 255, 0.5);
-      padding: 5px; 
-      font-size: 16px; 
+      padding: 5px;
+      font-size: 16px;
       color: #555;
-   
+
     }
-  
-    
+
+
   }
 
 
-  &__text{
+  &__text {
     color: #5c5470;
   }
+
   &__button {
     margin: 2rem;
     width: 9rem;
     height: 4rem;
-    background: #e0d6eb; 
+    background: #e0d6eb;
     border: none;
     border-radius: 32px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease;
     color: #5c5470;
-    
+
     span {
       line-height: 100px;
       font-size: 32px;
       font-weight: bold;
     }
-  
-    box-shadow: 
-      -5px -5px 15px rgba(255, 255, 255, 0.5),
-       5px 5px 15px rgba(0, 0, 0, 0.2);
-  
+
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.5),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+
     &:hover {
-      box-shadow: 
+      box-shadow:
         -8px -8px 20px rgba(255, 255, 255, 0.8),
-         8px 8px 20px rgba(0, 0, 0, 0.3);
+        8px 8px 20px rgba(0, 0, 0, 0.3);
     }
-  
+
     &:active {
       box-shadow: inset 4px 4px 8px rgba(255, 255, 255, 0.3),
-                  inset -4px -4px 8px rgba(0, 0, 0, 0.1);
+        inset -4px -4px 8px rgba(0, 0, 0, 0.1);
     }
   }
-  
-  
+
+  &__card {
+    max-width: 80%;
+    margin: 0 auto;
+    border-radius: 30px;
+    background:  #e0d6eb;
+    box-shadow: 15px 15px 30px #7b7b7b3b,
+      -15px -15px 30px #ffffff5d;
+  }
+
   &__container {
     margin-top: 2rem;
-    text-align: center; 
+    margin-bottom: 10rem;
+
+    text-align: center;
     height: 1vh;
   }
 
   &__img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
   }
 
   &__title {
+    padding-top: 20px;
     font-family: $font-family;
     font-size: $font-size-base * 1.5;
-    color: $text-dark;
-    margin-bottom: 30px; 
+    color: #5c5470;
+    margin-bottom: 30px;
   }
 
   &__explanation {
     font-family: $font-family;
     font-size: $font-size-base;
-    color: $text-dark;
-    padding: 0rem 0rem 3rem 0rem; 
-    max-width: 70%;
-    text-align: center; 
-    margin: 0 auto; 
+    color: #5c5470;
+    padding: 0rem 0rem 3rem 0rem;
+    max-width: 90%;
+    text-align: center;
+    margin: 0 auto;
   }
 
 }

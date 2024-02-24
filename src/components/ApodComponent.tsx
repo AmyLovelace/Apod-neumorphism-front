@@ -77,8 +77,10 @@ const ApodComponent = () => {
       {apodData && (
         <div className="apod-component__container">
           <img src={apodData.url} alt={apodData.title} className="apod-component__img" />
+          <div className='apod-component__card'>
           <p className="apod-component__title">{apodData.title}</p>
           <p className="apod-component__explanation">{apodData.explanation}</p>
+          </div>
         </div>
       )}
     </div>
