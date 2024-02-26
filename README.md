@@ -45,7 +45,7 @@ This frontend is part of a full-stack exercise that includes both frontend and b
 
 # Author
  
-[Amy LoveLace](https://github.com/AmyLovelace)
+[GIFF]([https://github.com/AmyLovelace](https://www.canva.com/design/DAF96Q1tBV0/pNfG88qGIZ72yeBGB7L34w/watch?utm_content=DAF96Q1tBV0&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel))
 
 ## Acknowledgments
 Special thanks to NASA for providing the Picture of the Day API.
