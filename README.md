@@ -44,7 +44,7 @@ Access the application in your browser at http://localhost:5173/
 This frontend is part of a full-stack exercise that includes both frontend and backend components. The frontend is responsible for fetching NASA's Picture of the Day from the backend with a user input of the desire date and presenting it to users with a neumorphic design style.
 
 # Author
- 
+   
 ![GIFF](https://www.canva.com/design/DAF96Q1tBV0/pNfG88qGIZ72yeBGB7L34w/watch?utm_content=DAF96Q1tBV0&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel)
 
 ## Acknowledgments
