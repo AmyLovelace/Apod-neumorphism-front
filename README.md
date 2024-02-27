@@ -1,6 +1,12 @@
 # Frontend for NASA Picture of the Day
 This is a frontend repository for a full-stack exercise aimed at fetching NASA's Picture of the Day. The frontend is built with React, SCSS following an atomic design approach, Vite, and TypeScript.
 
+# Preview
+
+ ![preview](https://github.com/AmyLovelace/Apod-neumorphism/blob/a852d594631838cfb6f23611e7250eeb7983497d/giffdemo.gif)
+  
+
+
 # Features
 Neumorphic design style
 Fetches NASA's Picture of the Day
@@ -44,8 +50,8 @@ Access the application in your browser at http://localhost:5173/
 This frontend is part of a full-stack exercise that includes both frontend and backend components. The frontend is responsible for fetching NASA's Picture of the Day from the backend with a user input of the desire date and presenting it to users with a neumorphic design style.
 
 # Author
-   
-![GIFF](https://www.canva.com/design/DAF96Q1tBV0/pNfG88qGIZ72yeBGB7L34w/watch?utm_content=DAF96Q1tBV0&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel)
+  ![Amy Lovelace]([https://github.com/AmyLovelace/Apod-neumorphism/blob/a852d594631838cfb6f23611e7250eeb7983497d/giffdemo.gif](https://github.com/AmyLovelace))
+ 
 
 ## Acknowledgments
 Special thanks to NASA for providing the Picture of the Day API.
