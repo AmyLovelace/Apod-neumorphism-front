@@ -50,7 +50,7 @@ Access the application in your browser at http://localhost:5173/
 This frontend is part of a full-stack exercise that includes both frontend and backend components. The frontend is responsible for fetching NASA's Picture of the Day from the backend with a user input of the desire date and presenting it to users with a neumorphic design style.
 
 # Author
-  ![Amy Lovelace]([https://github.com/AmyLovelace/Apod-neumorphism/blob/a852d594631838cfb6f23611e7250eeb7983497d/giffdemo.gif](https://github.com/AmyLovelace))
+ [Amy Lovelace](https://github.com/AmyLovelace)
  
 
 ## Acknowledgments
