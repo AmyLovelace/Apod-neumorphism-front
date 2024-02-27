@@ -1,4 +1,4 @@
-# Frontend for NASA Picture of the Day
+# Frontend for NASA Astronomy Picture of the Day
 This is a frontend repository for a full-stack exercise aimed at fetching NASA's Picture of the Day. The frontend is built with React, SCSS following an atomic design approach, Vite, and TypeScript.
 
 # Preview
